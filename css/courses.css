@@ -37,6 +37,18 @@ section {
   padding: 20px;
 }
 
+#loginRegisterMessage {
+  text-align: center;
+  background-color: #0267c1;
+  color: #fff;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+#loginRegisterMessage p {
+  margin: 0;
+}
+
 .product-card {
   width: 100%; /* Standardbredd för mobilvisning */
   margin: 10px 0;

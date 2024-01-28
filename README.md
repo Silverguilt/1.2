@@ -18,13 +18,15 @@ To run this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/your-username/westcoast-education-prototype.git
+   ```
 
 ## Navigate to the project directory:
 
 cd westcoast-education-prototype
 
 ## Install dependencies:
-*Assuming you have Node.js installed
+
+\*Assuming you have Node.js installed
 npm install
 
 ### Start the JSON Server:
@@ -34,6 +36,10 @@ json-server --watch data/db.json
 This will start the JSON Server and provide a mock API at http://localhost:3000.
 
 Open the courses.html file in your browser to access the application.
+
+If you want to log in as a student, either create a new user or use the Username: kalle_anka and the Password: 1234.
+
+If you want to log in as a teacher, use the Username: musse_pigg and the Password: 1234.
 
 ## Folder Structure
 
