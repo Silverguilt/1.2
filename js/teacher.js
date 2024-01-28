@@ -1,3 +1,5 @@
+import { logoutUser } from './auth.js';
+
 function addNewCourse() {
   const courseName = document.getElementById('courseName').value;
   const courseNumber = document.getElementById('courseNumber').value;
